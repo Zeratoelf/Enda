@@ -17,7 +17,7 @@ body{
     width: 735px; */
     min-height: 100vh;
     max-width: 1375px;
-    background-color: rgb(189, 144, 47);
+    background-color: rgb(219, 185, 111);
     background-image: url(./img/fondo-cover4.jpeg);
     background-size: cover;
     padding: 5vh ;
@@ -29,7 +29,7 @@ div#container{
 }
 
 div.titulos{
-    height: 100vh;
+    height: 100dvh;
 }
 
 #titulo-central{
@@ -40,32 +40,41 @@ div.titulos{
     margin-left: 10%; */
     padding-top: 0%;
     padding-bottom: 5%;
-    padding-left: 10%;
+    padding-left: 0%;
     /* margin-right: 50%; */
     opacity: 0.9;
     color: brown;
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 35ch;
+    gap: 1.5rem;
+}
 
 #titulos-entrada li {
     list-style: none;
     padding-top: 0px;
-    padding-left: 12%;
+    padding-left: 0%;
+    flex-basis: 15ch 10ch;
     
-    /* margin-right: 20px; */
+    
 }
 
 #titulos-entrada a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    opacity: 0.7;
+    opacity: 0.65;
     font-size: 25px;
     font-family: Playwrite;
     padding: 0%;
 }
 
 .primera-letra {
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
 }
 
@@ -80,5 +89,14 @@ div.titulos{
 #fish{
     width: 500px;
     transform: rotateY(180deg);
+}
+
+.flower{
+    height: 30ch;
+    width: 40ch;
+    flex-grow: 1;
+    flex-shrink: 0;
+    opacity: 0.4;
+    mix-blend-mode: multiply;
 }
 
