@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: 2px solid red;  */
+
+}
+
+body{
+    /* height: 1023px;
+    width: 735px; */
+    min-height: 100dvh;
+    max-width: 1300px;
+    background-color: rgb(185, 140, 41);
+    background-image: url(../img/fondo-flores.jpg);
+    background-size: 25ch;
+    background-position: center ;
+    background-repeat: repeat;
+    padding-left: 4%;
+    padding-top: 3%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: 'PlaywriteFont';
+    src: url(./fonts/PlayfairDisplay-VariableFont_wght);
+}
+
+.izquierda{
+    flex-basis: 50ch;
+    z-index: -15;
+
+    /* position: relative; */
+}
+
+.titulo{
+    position: relative;
+    border-radius: 45px;
+    background-image: url(../img/luna-campo.jpg);
+    background-size: cover;
+    color: rgb(211, 219, 233);
+    font-size: 32px;
+    font-family: 'Times New Roman';
+    padding: 20px;
+    padding-top: 50px;
+    /* mix-blend-mode: multiply; */
+    text-align: center;
+    height: 21ch;
+    box-shadow: -10px 10px 20px black;
+
+    /* opacity:0.9; */
+    /* top: 35px;
+    left: 20px; */
+}
+
+.titulo h1{
+    mix-blend-mode: difference;
+    font-style: oblique;
+
+}
+.leyenda{
+    position: absolute;
+    padding: 15px;
+    padding-top: 15px;
+    width: 350px;
+    height: 115px;
+    text-align: center;
+    font-size: 18px;
+    top: 450px;
+    left: 75px;
+    color: aliceblue;
+    border-radius: 25px;
+    background-color: black;
+    background-image: url(../img/luna-campo.jpg);
+    background-size: 100vh 100vw;
+    background-position: bottom center;    
+    box-shadow: -10px 15px 20px black;
+
+}
+
+.leyenda p {
+    mix-blend-mode: soft-light;
+    font-weight: bold;
+}
+
+.medio {
+    width: 37ch;
+    
+}
+
+.ganchos {
+    background-image: url(../img/fondo-rosas3.jpg);
+    background-size: 36ch;
+    background-repeat: repeat;
+    position: absolute;
+    z-index: -10;
+    top: 0px;
+    filter: contrast(0.5),brightness(70%), saturate(140%);
+    box-shadow: 0px 0px 100px 15px;    
+    /* opacity: 0.8; */
+}
+
+.ganchos img {
+    opacity: 0;
+}
+
+/* .ganchos.dos {
+    position: absolute;
+    top: 564px
+} */
+
+.listado{
+    width: 30ch;
+    padding: 10px;
+    margin-left: 3ch;
+    margin-top: 2ch;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    z-index: 15;
+}
+
+@font-face {
+    font-family: 'Playwrite';
+    src: url(../fonts/PlaywriteAR-VariableFont_wght.ttf);
+}
+
+
+.escritos {
+    /* margin-top: 25px; */
+    font-family: Playwrite;
+    /* background-image: url(../img/fondo-escritos2.jpeg);
+    background-size: cover; */
+    margin-bottom: 2ch;
+    box-shadow: -2px 5px 5px black;
+    background-color: rgba(53, 53, 20, 0.253) ;
+    background-repeat: repeat;
+    /* mix-blend-mode: difference; */
+    
+}
+
+.escritos a {
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+    /* mix-blend-mode: difference; */
+}
+
+.derecha{
+    position: relative;
+    z-index: -15;
+
+}
+
+.intro{
+    margin-top: 0ch;
+    /* position: absolute; */
+    left: 56ch;
+    background-color: rgb(18, 45, 56);
+    box-shadow: 10px 15px 20px black;
+    /* background-image: url(../img/azul-patron.jpg); */
+    background-size: 25ch;
+    background-repeat: repeat;
+    border-radius: 45px;
+    color: rgb(175, 175, 175);
+    font-family: fantasy;
+    font-size: 13px;
+    text-align: justify;
+    /* position: absolute; */
+    /* top: 15px;
+    bottom: 15px;
+    left: 700px;
+    right: 250px; */
+    width: 90ch;
+    height: 90ch;
+    padding: 23px;
+    z-index: 15;
+}
+
+.fecha {
+    position: absolute;
+    left: 320px;
+    margin-top: 1px; 
+    color:black;
+    z-index: -3;
+    opacity: 0.8;
+    font-size: 15px;
+    /* top: 10px; */
+}
