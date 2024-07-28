@@ -34,6 +34,7 @@ a{
 .izquierda{
     flex-basis: 50ch;
     z-index: -15;
+    flex-shrink: 0;
 
     /* position: relative; */
 }
