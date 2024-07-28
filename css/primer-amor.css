@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* outline: 2px solid red;  */
+    outline: 2px solid red; 
 
 }
 
@@ -108,6 +108,8 @@ a{
 
 .ganchos img {
     opacity: 0;
+    width: 35ch;
+    max-height: 1300px;
 }
 
 /* .ganchos.dos {
@@ -160,7 +162,7 @@ a{
 .intro{
     margin-top: 0ch;
     /* position: absolute; */
-    left: 56ch;
+    /*  left: 56ch; */
     background-color: rgb(18, 45, 56);
     box-shadow: 10px 15px 20px black;
     /* background-image: url(../img/azul-patron.jpg); */
@@ -176,9 +178,10 @@ a{
     bottom: 15px;
     left: 700px;
     right: 250px; */
-    width: 90ch;
-    height: 90ch;
+    width: 500px;
+    height: 700px;
     padding: 23px;
+    margin-left:50px ;
     z-index: 15;
 }
 
