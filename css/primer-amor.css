@@ -7,8 +7,8 @@
 }
 
 body{
-    min-height: 100dvh;
-    width: 7300px;
+    height: auto;
+    width: 2150px;
     background-color: rgb(185, 140, 41);
     background-image: url(../img/fondo-flores.jpg);
     background-size: 25ch;
@@ -16,6 +16,7 @@ body{
     background-repeat: repeat;
     padding-left: 4%;
     padding-top: 3%;
+    /* overflow: hidden; */
     display: flex;
 }
 
@@ -33,7 +34,6 @@ a {
     flex-basis: 50ch;
     z-index: -15;
     flex-shrink: 1;
-
     position: relative;
 }
 
@@ -103,8 +103,29 @@ a {
     border-radius: 150px 200px 300px;
 }
 
+.ganch {
+    position: absolute;
+    background-image: url(../img/fondo-rosas31.jpg);
+    background-size: 70ch;
+    background-repeat: repeat;
+    position: absolute;
+    z-index: -10;
+    top: 1500px;
+    left: -100px;
+    filter: contrast(0.5),brightness(70%), saturate(140%);
+    box-shadow: 0px 0px 100px 15px;    
+}
+
+.ganch img {
+    opacity: 0;
+    height: 35ch;
+    min-width: 353dvh;   
+
+    overflow: hidden;
+}
+
 #medio {
-    margin-left: 43px;
+    margin-left: 150px;
     width: 37ch;
     overflow: hidden;
     
@@ -112,7 +133,7 @@ a {
 
 .ganchos {
     background-image: url(../img/fondo-rosas3.jpg);
-    background-size: 36ch;
+    background-size: 46ch;
     background-repeat: repeat;
     position: absolute;
     z-index: -10;
@@ -123,7 +144,7 @@ a {
 
 .ganchos img {
     opacity: 0;
-    width: 35ch;
+    width: 45ch;
     min-height: 100dvh;
     overflow: hidden;
 }
@@ -161,20 +182,19 @@ a {
 }
 
 #derecha {
-    display: flex;
+    position: relative;
     z-index: -15;
-    padding-left: 10.5em;
+    padding-left: 6.5em;
     gap: 10.5em;
 
 }
-
-#derecha > div {
-    position: relative;
-}
-
+.intro {
+    margin-left: 163px;
+} 
 .titulo-parrafo {
+    font-family: Playwrite;
     position: absolute;
-    left: 410px;
+    left: 360px;
     top: 200px;
     color: white;
     font-size: 25px;
@@ -192,7 +212,6 @@ a {
 
 .parrafo p {
     text-align: justify;
-    /* border-radius: 0px 30px 30px 30px; */
     overflow: hidden;
 
 }
