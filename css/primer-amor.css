@@ -108,6 +108,7 @@ a {
     position: absolute;
     height: 35.6ch;
     width: 50ch;
+    left: 300px;
     top: 1500px;
     overflow: hidden;
 }
@@ -117,7 +118,7 @@ a {
     right: 0px;
     width: 50ch;
     border-radius: 550px 500px 300px 500px;
-    mix-blend-mode: darken;
+    /* mix-blend-mode: darken; */
 
 }
 
@@ -126,9 +127,9 @@ a {
     height: 35.5ch;
     width: 50ch;
     top: 1500px;
-    left: 400px;
+    left: 850px;
     overflow: hidden;
-    mix-blend-mode: darken;
+    /* mix-blend-mode: darken; */
 }
 
 
@@ -205,10 +206,10 @@ a {
 }
 
 .escritos a {
-    color: rgb(89, 173, 246);
+    color: rgba(255, 255, 255, 0.646);
     font-size: 27.75px;
     font-weight: bold;
-    mix-blend-mode: lighten;
+    /* mix-blend-mode: exclusion; */
 }
 
 #derecha {
