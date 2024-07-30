@@ -2,12 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    outline: 2px solid red; 
+    /* outline: 2px solid red;  */
 
 }
 
 body{
-    height: auto;
+    height: 2150px;
     width: 2150px;
     background-color: rgb(185, 140, 41);
     background-image: url(../img/fondo-flores.jpg);
@@ -43,19 +43,19 @@ a {
     background-image: url(../img/luna-campo.jpg);
     background-size: cover;
     color: rgb(211, 219, 233);
-    font-size: 32px;
+    font-size: 47px;
     font-family: 'Times New Roman';
     padding: 20px;
     padding-top: 50px;
     text-align: center;
-    width: 25ch;
-    height: 21ch;
+    width: 20ch;
+    height: 18ch;
     box-shadow: -10px 10px 20px black;
 }
 
 .titulo h1 {
     mix-blend-mode: difference;
-    font-style: oblique;
+    font-style: italic;
 
 }
 
@@ -67,15 +67,15 @@ a {
     height: 115px;
     text-align: center;
     font-size: 18px;
-    top: 910px;
-    left: 25px;
-    color: aliceblue;
+    top: 1250px;
+    left: 55px;
+    color: rgb(255, 251, 240);
     border-radius: 25px;
     background-color: black;
     background-image: url(../img/luna-campo.jpg);
     background-size: 100vh 100vw;
     background-position: bottom center;    
-    box-shadow: -10px 15px 20px black;
+    box-shadow: -15px 30px 30px black;
 
 }
 
@@ -86,7 +86,7 @@ a {
 
 .dibujo {
     position: absolute;
-    top: 370px;
+    top: 470px;
     background-color: blue;
     background-image: url(../img/fondo-flores2.jpg);
     background-size: 30ch;
@@ -98,10 +98,39 @@ a {
 }
 
 .dibujo img {
+    width: 55ch;
     opacity: 0.9;
     box-shadow: -05px 50px 30px 2px;
     border-radius: 150px 200px 300px;
 }
+
+.dibujoUno {
+    position: absolute;
+    height: 35.6ch;
+    width: 50ch;
+    top: 1500px;
+    overflow: hidden;
+}
+
+.dibujoUno img{
+    position: absolute;
+    right: 0px;
+    width: 50ch;
+    border-radius: 550px 500px 300px 500px;
+    mix-blend-mode: darken;
+
+}
+
+.dibujoDos {
+    position: absolute;
+    height: 35.5ch;
+    width: 50ch;
+    top: 1500px;
+    left: 400px;
+    overflow: hidden;
+    mix-blend-mode: darken;
+}
+
 
 .ganch {
     position: absolute;
@@ -119,14 +148,13 @@ a {
 .ganch img {
     opacity: 0;
     height: 35ch;
-    min-width: 353dvh;   
-
+    min-width: 2230px;   
     overflow: hidden;
 }
 
 #medio {
     margin-left: 150px;
-    width: 37ch;
+    width: 45ch;
     overflow: hidden;
     
 }
@@ -151,7 +179,7 @@ a {
 
 
 .listado {
-    width: 30ch;
+    width: 40ch;
     padding: 10px;
     margin-left: 3ch;
     margin-top: 2ch;
@@ -177,8 +205,10 @@ a {
 }
 
 .escritos a {
-    color: rgb(243, 243, 243);
+    color: rgb(89, 173, 246);
+    font-size: 27.75px;
     font-weight: bold;
+    mix-blend-mode: lighten;
 }
 
 #derecha {
@@ -188,9 +218,7 @@ a {
     gap: 10.5em;
 
 }
-.intro {
-    margin-left: 163px;
-} 
+
 .titulo-parrafo {
     font-family: Playwrite;
     position: absolute;
@@ -200,20 +228,33 @@ a {
     font-size: 25px;
 }
 
+.intro {
+    margin-left: 110px;
+    filter: blur(0.7px);
+} 
+
 .parrafo {
     position: absolute;
     top: 270px;
     left: 165px;
-    color: white;
+    color: rgba(245, 213, 53, 0.524);
     max-width: 700px;
     font-size: 18px;
     overflow: hidden;
+    text-align: center;
 }
 
 .parrafo p {
+    margin-top: 10px;
     text-align: justify;
-    overflow: hidden;
 
+}
+
+.letter {
+    float: left;
+    
+    width: 100px;
+    margin: 0px;
 }
 /* .intro {
     margin-top: 0ch;
