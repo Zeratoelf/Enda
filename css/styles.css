@@ -1,4 +1,8 @@
-*{
+@font-face {src: url(../fonts/PlaywriteAR-VariableFont_wght.ttf);
+    font-family: 'Playwrite';
+}
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,102 +10,72 @@
 
 }
 
-@font-face {
-    font-family: 'Playwrite';
-    src: url(../fonts/PlaywriteAR-VariableFont_wght.ttf);
-}
-
-
 body{
-    /* height: 1023px;
-    width: 735px; */
-    min-height: 100vh;
-    max-width: 1375px;
-    background-color: rgb(219, 185, 111);
-    background-image: url(../img/fondo-cover4.jpeg);
-    background-size: cover;
-    padding: 5vh ;
-    position: relative;
-}
-
-div#container{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-div.titulos{
     height: 100dvh;
-}
-
-#titulo-central{
-    width: 40vw;
-    /* text-align: left; */
-    font-size: 50px ;
-    /* margin-right: 15%;
-    margin-left: 10%; */
-    padding-top: 0%;
-    padding-bottom: 5%;
-    padding-left: 0%;
-    /* margin-right: 50%; */
-    opacity: 0.9;
-    color: brown;
-}
-
-ul{
+    width: auto;
+    background-color: rgb(219, 185, 111);
+    background-image: url(../img/fondo-flores5.jpg);
+    background-size: 18ch;
+    background-position-x:right;
+    background-repeat: repeat;
+    font-family: 'Playwrite';
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
-    height: 35ch;
-    gap: 1.5rem;
+    align-items: center;
 }
 
-#titulos-entrada li {
-    list-style: none;
-    padding-top: 0px;
-    padding-left: 0%;
-    flex-basis: 15ch 10ch;
-    
-    
-}
-
-#titulos-entrada a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    opacity: 0.65;
-    font-size: 25px;
-    font-family: Playwrite;
-    padding: 0%;
-}
-
-.primera-letra {
-    font-size: 30px;
-    font-style: italic;
-}
-
-.decorativos {
-    opacity: 0.5;
+.entrada {
+    background-image: url(../img/fondo-entrada.jpeg);
     mix-blend-mode: multiply;
+    background-size: 880px;
+    width: 880px;
+    height: 690px;
+    flex: 0 0 880px;
+    margin: 0 8dvw;
+    padding: 90px;
+    display: flex;
+    align-items: end;
     flex-grow: 0;
-    
-}
-
-#fish{
     position: relative;
-    width: 500px;
-    transform: rotateY(180deg);
+    box-shadow: 1px 1px 10px;
 }
 
-.flower{
-    position: relative;
-    bottom: 4.5ch;
-    left: 15ch;
-    height: auto;
-    width: 40ch;
-    flex-grow: 1;
-    flex-shrink: 0;
-    opacity: 0.4;
-    mix-blend-mode: multiply;
-    filter: blur(0.6px);
+.titulo.uno {
+    font-size: 35px;
+    color: rgb(42, 161, 165);
+    line-height: 2.5em;
+    flex-grow: 0;
+    opacity: 0.5;
+    /* mix-blend-mode: exclusion; */
 }
 
+.titulo.dos{
+    position: absolute;
+    top: 10.5em;
+    line-height: 2.02em;
+    color: rgba(0, 0, 0, 0.809);
+    font-size: 36px;
+}
+
+h1 {
+    width: 8em;
+}
+
+h2 {
+    text-shadow: 10px 5px 1px  rgba(42, 161, 165, 0.477);
+}
+.flower.one{
+    position: absolute;
+    left: 32rem;
+    top: 6.3rem;
+}
+
+.flower.two{
+    position: absolute;
+    right: 18rem;
+    top: 5rem;
+}
+
+.flower {
+    /* mix-blend-mode: luminosity; */
+}
