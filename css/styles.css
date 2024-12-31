@@ -12,7 +12,7 @@
 
 body{
     height: 100dvh;
-    width: auto;
+    width: 900px;
     background-color: rgb(219, 185, 111);
     background-image: url(../img/fondo-flores5.jpg);
     background-size: 18ch;
