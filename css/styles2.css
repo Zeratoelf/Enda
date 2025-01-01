@@ -83,7 +83,7 @@ h2 {
     /* mix-blend-mode:multiply; */
     top: 2em;
     left: 0em;
-    z-index: 1;
+    z-index: 6;
     transform: rotate(15deg);
     opacity: 0.9;
 }
