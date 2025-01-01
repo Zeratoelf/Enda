@@ -6,13 +6,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* outline: 2px solid red;  */
+    outline: 2px solid red; 
 
 }
 
 body{
-    height: 100dvh;
-    width: 900px;
+    width: 100dvw;
     background-color: rgb(219, 185, 111);
     background-image: url(../img/fondo-flores5.jpg);
     background-size: 18ch;
@@ -20,8 +19,9 @@ body{
     background-repeat: repeat;
     font-family: 'Playwrite';
     display: flex;
-    justify-content: center;
+    /* justify-content: space-around; */
     align-items: center;
+    /* margin: 10% 10% 50% 50%; */
 }
 
 .entrada {
@@ -29,39 +29,27 @@ body{
     mix-blend-mode: multiply;
     background-size: 880px;
     width: 880px;
-    height: 690px;
+    height: 44em;
     flex: 0 0 880px;
-    margin: 0 8dvw;
+    /* margin: 8dvw; */
+    /* padding-right: 20dvw; */
     padding: 90px;
-    display: flex;
-    align-items: end;
-    flex-grow: 0;
+    /* display: flex; */
+    align-items: center;
     position: relative;
     box-shadow: 1px 1px 10px;
 }
 
-.titulo.uno {
-    font-size: 35px;
-    color: rgb(42, 161, 165);
-    line-height: 2.5em;
-    flex-grow: 0;
-    opacity: 0.5;
-    /* mix-blend-mode: exclusion; */
-}
 
 .titulo.dos{
     position: absolute;
     top: 10.5em;
     line-height: 2.02em;
-    color: rgba(0, 0, 0, 0.809);
     font-size: 36px;
 }
 
-h1 {
-    width: 8em;
-}
-
 h2 {
+    color: black;
     text-shadow: 10px 5px 1px  rgba(42, 161, 165, 0.477);
 }
 .flower.one{
@@ -78,4 +66,40 @@ h2 {
 
 .flower {
     /* mix-blend-mode: luminosity; */
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    body {
+        /* min-width: 100%; */
+        /* min-height: 10em; */
+        height: 150px;
+        width: 150px;
+    }
+
+    .entrada {
+        padding: 0;
+        height: 150px;
+        width: 150px;
+    }
+
+    h2 {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        left: 8rem;
+        bottom: 5rem;
+    }
+            
+    div .flower {
+        
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .flower img {
+        height: 150px;
+        width: 150px;
+    }
 }

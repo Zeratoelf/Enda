@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Playwrite';
+    src: url(../fonts/PlaywriteAR-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 2px solid red; 
+
+}
+
+body {
+    height: 100dvh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    background-color: bisque;
+    margin: 3em;
+    flex-grow: 1;
+    flex: 1;
+    gap: 2em;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Playwrite;
+    color: rgb(238, 238, 238);
+}
+
+.parrafo {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+margin-bottom: 15em;
+flex: 1;
+overflow: auto;
+}
